@@ -1,0 +1,6 @@
+if station_master
+    Update the Railway_news
+    if any_error
+       messsage: Update unsuccessful
+    else
+       messsage: Update successful

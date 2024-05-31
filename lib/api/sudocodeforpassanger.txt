@@ -1,0 +1,41 @@
+if Passanger
+   if railway_ticket_book
+      search_Train
+      select_train
+      Enter passanger deatails
+      Click Pay and book 
+      if Book_failure
+         generate_pdf
+      else
+        ebook_the_Ticket
+    if Buggy_services
+       Enter Ticket Number
+       if valid_ticket_number
+           enable Buggy_services
+           Book Buggy_services
+        else
+            Cannot access the Buggy_services
+    if luaggege_services
+       Enter Ticket Number
+       if valid_ticket_number
+           enable luaggege_services
+           Book luaggege_services
+        else
+            Cannot access the luaggege_services
+    if railway_ticket_book_doy_with_travel
+        search_Train
+        select_train
+        Enter passanger deatails
+        Click Pay and book 
+        if Book_failure
+           generate_pdf
+        else
+           Rebook_the_Ticket
+    if transfer_seat
+        Raise Requset
+        if accepted_seat
+           transfer seat
+        else
+           seat is not transfer
+    
+

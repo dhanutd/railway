@@ -1,0 +1,11 @@
+if Railway_staff
+   if Buggy_services
+      if accepted_services
+         give Buggy_services
+      else
+         Reject Buggy_services
+    if luaggege_services
+      if accepted_services
+         give luaggege_services
+      else
+         Reject luaggege_services
